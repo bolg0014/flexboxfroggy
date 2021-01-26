@@ -1,0 +1,38 @@
+flexboxfroggy.com - Connor Bolger
+Level 1: justify-content: flex-end; (frog moved right to lilypad)
+Level 2: justify-content: center; (moved the 2 frogs to the middle lilypads)
+Level 3: justify-content: space-around; (move the 3 frogs with equal space around)
+Level 4: justify-content: space-between; (3 frogs moved [left side, middle, right side])
+Level 5: align-items: flex-end; (moved frogs to the bottom)
+Level 6: justify-content: center; (frog moved centre, centre of area)
+         align-items: center;
+Level 7: justify-content: space-around; (added space around, and aligned to bottom)
+         align-items: flex-end;
+Level 8: flex-direction: row-reverse; (mirrored the frogs to the other side)
+Level 9: flex-direction: column; (frogs set into a column)
+Level 10: justify-content: flex-end; (reversed on the axis to mirror frogs, but justified to new "end")
+          flex-direction: row-reverse;
+Level 11: flex-direction: column; (frogs set into column, then pushed to the end)
+          justify-content: flex-end;
+Level 12: flex-direction: column-reverse; (set to reverse column, then space added between)
+          justify-content: space-between;
+Level 13: flex-direction: row-reverse; (row reversed, then centred, and lastly set to the end)
+          justify-content: center;
+          align-items: flex-end;
+Level 14: order: 1; (yellow frog set to the 3rd position)
+Level 15: order: -2; (red frog set to its lily pad at -2 [... -2 -1 0 1 2 ...]
+Level 16: align-self: flex-end; (.yellow frog was aligned to the end)
+Level 17: order: 1; (ordered the frogs, and then set flex to the end)
+          align-self: flex-end;
+Level 18: flex-wrap: wrap; (wrapped around to fit the lilypads)
+Level 19: flex-direction: column; (set the frogs to columns, and then wraped to fit the 3 rows of lilypads)
+          flex-wrap: wrap;
+Level 20: flex-flow: column wrap; (repeated level 19, but using flex-flow)
+Level 21: align-content: flex-start; (determined the spacing between the lines, moving the frogs to the lilypads)
+Level 22: align-content: flex-end; (aligned to the end moving the frogs to the bottom)
+Level 23: flex-direction: column-reverse; (set to reverse columns to have the yellow at the top, and then centered)
+          align-content: center;
+Level 24: flex-direction: column-reverse; (set to a reverse column, wrapped it reverse, centered the content to align them, and then added space between)
+          flex-wrap: wrap-reverse;
+          justify-content: center;
+          align-content: space-between;
